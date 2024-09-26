@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+} 
+
+body{
+    overflow-x: hidden;
+}
+/*******HOME*************/
+
+/*HEADER*/
+
+header{
+    background-color: #30343f;
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    align-items: center;
+    font-family: "Bruno Ace", sans-serif;
+    font-style: 300;
+}
+#logo{
+    margin-right: 15rem;
+}
+.navbar-nav a{
+    color: white;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+
+/*PRODUCTOS*/
+h1{
+    text-align: center;
+    padding: 20px;
+    color: #30343f;
+}
+main{
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 3rem;
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+}
+.containerFunkos{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.cardFunkos img{
+    height: 100%;
+    width: 100%;
+}
+.cardFunkos{
+    margin: 5px;
+    height:500px ;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bruno Ace", sans-serif;
+    font-style: normal;
+    color: #30343f;
+    text-align: center;
+}
+.cardFunkos h2,h3{
+    font-size: 15px;
+}
+.productShop{
+    font-weight: bold;
+    font-size: 20px ;
+}
+.promoShop{
+    color: red;
+    font-size: 12px;
+}
+.botonComprar{
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    background-color: #30343f;
+}
+.botonComprar:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+
+/*CARRITO*/
+
+#containerCarrito{
+    padding: 5rem;
+}
+#containerCarrito h2{
+    text-align: center;
+    padding: 1rem;
+}
+.carritoProductos {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    color: white;
+}
+.carritoProducto {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    background-color: #30343f;
+}
+.carritoBoton {
+    background-color: white;
+    border: 0;
+    padding: .50rem .50rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+.d-none {
+    display: none;
+}
+.carritoTotal{ 
+    padding: 2rem;
+}
+#carritoVacio h4{
+    font-size: 20px;
+    color: #7f8288;
+    padding: 2rem;
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: #30343f;
+    font-family: "Bruno Ace", sans-serif;
+    font-style: 300;
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.limap{
+    list-style: none;
+}
+.limap li{
+    margin-bottom: 1rem;
+}
+.limap li a{
+    text-decoration: none;
+    color: white ;
+    font-size: 15px;
+}
+.limap li a:hover{
+    font-weight: 900;
+}
+footer h3{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+.logoFooter{
+    height: 30%;
+    width: 30%;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
